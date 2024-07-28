@@ -1,5 +1,5 @@
-import UiHeader from './ui/ui-header.vue'
+import HeaderWidget from './ui/header-widget.vue'
 
 export {
-  UiHeader
+  HeaderWidget
 }

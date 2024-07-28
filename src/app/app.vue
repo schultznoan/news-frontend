@@ -1,6 +1,6 @@
 <template>
    <div class="wrapper">
-      <ui-header />
+      <header-widget />
 
       <RouterView />
 
@@ -11,6 +11,6 @@
 <script setup lang="ts">
 import { RouterView } from 'vue-router';
 
-import { UiHeader } from '@/widgets/header'
+import { HeaderWidget } from '@/widgets/header'
 import { UiSymbols } from '@/shared/ui'
 </script>

@@ -1,24 +1,15 @@
 <template>
-  <header class="header container">
+  <header class="header container offset">
     <div class="header-title">
-      <router-link
-        to="/"
-        class="header-title__link"
-      >
+      <router-link to="/" class="header-title__link">
         Inforsphere.com
       </router-link>
     </div>
     <div class="header-actions">
-      <router-link
-        to="/user/signin"
-        class="header-actions__link"
-      >
+      <router-link to="/user/signin" class="header-actions__link">
         Log in
       </router-link>
-      <router-link
-        to="/user/signup"
-        class="header-actions__link"
-      >
+      <router-link to="/user/signup" class="header-actions__link">
         Sign up
       </router-link>
     </div>
@@ -30,8 +21,6 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 10px;
-  padding-bottom: 10px;
 
   &-title {
     &__link {
@@ -45,6 +34,7 @@
     &__link {
       padding: 5px;
       color: var(--color-blue);
+      font-weight: 600;
 
       &:last-child {
         color: var(--color-white);

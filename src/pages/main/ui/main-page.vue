@@ -1,7 +1,7 @@
 <template>
   <main>
     <ui-banner :title="'Have you say'" />
-    <section>
+    <section class="container offset">
       Страница в разработке
     </section>
   </main>
