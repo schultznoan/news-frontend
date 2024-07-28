@@ -1,4 +1,4 @@
-import UiHeader from './ui/header.vue'
+import UiHeader from './ui/ui-header.vue'
 
 export {
   UiHeader
