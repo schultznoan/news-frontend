@@ -1,5 +1,5 @@
 <template>
-  <div class="symbols">
+  <section class="symbols">
     <svg>
       <symbol id="icon-home" width="40" height="40" viewBox="0 0 40 40" fill="none">
         <path
@@ -22,5 +22,5 @@
         </defs>
       </symbol>
     </svg>
-  </div>
+  </section>
 </template>

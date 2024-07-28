@@ -1,10 +1,10 @@
 <template>
-  <div class="banner">
+  <section class="banner">
     <svg width="40" height="40">
       <use xlink:href="#icon-home" />
     </svg>
     <h1>{{ title }}</h1>
-  </div>
+  </section>
 </template>
 
 <script setup lang="ts">
