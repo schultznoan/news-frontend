@@ -7,11 +7,18 @@
 :root {
   --container: 1200px;
   --main-size: 16px;
+  --link-size: 18px;
   --color-blue: #6688FF;
+  --color-white: #FFFFFF;
+  --color-black: #333333;
+  --color-background: #F0F1F5;
 }
 
 body {
   font-family: 'Inter', sans-serif;
+  font-size: var(--main-size);
+  padding: 10px;
+  background: var(--color-background);
 }
 
 .container {
