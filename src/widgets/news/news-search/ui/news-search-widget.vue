@@ -1,6 +1,6 @@
 <template>
   <div class="search">
-    <input type="text" class="input search-input">
+    <input type="text" class="input search-input" placeholder="Search...">
     <button class="btn search-btn">
       <svg class="banner-search" width="17" height="17">
         <use xlink:href="#icon-search" />
