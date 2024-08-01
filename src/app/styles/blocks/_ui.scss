@@ -4,3 +4,15 @@ a {
   line-height: 36px;
   font-size: var(--link-size);
 }
+
+.input {
+  border: none;
+  outline: none;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+}
