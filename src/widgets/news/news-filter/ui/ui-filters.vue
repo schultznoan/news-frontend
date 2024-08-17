@@ -5,7 +5,7 @@
 </template>
 
 <script setup>
-import NewsFilterBlockWidget from './news-filter-block-widget.vue'
+import NewsFilterBlockWidget from './ui-filters-block.vue'
 import { filtersList } from '../mocks'
 </script>
 

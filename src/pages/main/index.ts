@@ -1,4 +1,4 @@
-import MainPage from './ui/main-page.vue'
+import MainPage from './ui/index.vue'
 
 export {
   MainPage

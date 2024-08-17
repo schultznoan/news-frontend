@@ -1,4 +1,4 @@
-import HeaderWidget from './ui/header-widget.vue'
+import HeaderWidget from './ui/ui-header.vue'
 
 export {
   HeaderWidget

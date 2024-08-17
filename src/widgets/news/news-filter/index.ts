@@ -1,4 +1,4 @@
-import NewsFilterWidget from './ui/news-filter-widget.vue'
+import NewsFilterWidget from './ui/ui-filters.vue'
 
 export {
   NewsFilterWidget

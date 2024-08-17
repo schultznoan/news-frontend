@@ -1,4 +1,4 @@
-import NewsSearchWidget from './ui/news-search-widget.vue'
+import NewsSearchWidget from './ui/ui-news-search.vue'
 
 export {
   NewsSearchWidget
