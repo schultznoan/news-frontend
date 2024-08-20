@@ -1,17 +1,29 @@
 <template>
-  <div class="filters-block" @click.stop="isFilterOpen = !isFilterOpen">
+  <div
+    class="filters-block"
+    @click.stop="isFilterOpen = !isFilterOpen"
+  >
     <div class="filters-block__content">
-      <div class="filters-block__content-icon" v-html="filter.icon" />
+      <div
+        class="filters-block__content-icon"
+        v-html="filter.icon"
+      />
       <div class="filters-block__content-description">
         <div>{{ filter.title }}</div>
         <div>
-          <svg width="9" height="9">
+          <svg
+            width="9"
+            height="9"
+          >
             <use :xlink:href="isFilterOpen ? '#icon-up' : '#icon-down'" />
           </svg>
         </div>
       </div>
     </div>
-    <news-filter-block-list v-if="isFilterOpen" :filters-list="filter.list" />
+    <news-filter-block-list
+      v-if="isFilterOpen"
+      :filters-list="filter.list"
+    />
   </div>
 </template>
 

@@ -1,6 +1,13 @@
 <template>
-  <div v-if="filtersList.length" class="filters-list">
-    <news-filter-block v-for="filter in filtersList" :key="filter.id" :filter="filter" />
+  <div
+    v-if="filtersList.length"
+    class="filters-list"
+  >
+    <news-filter-block
+      v-for="filter in filtersList"
+      :key="filter.id"
+      :filter="filter"
+    />
   </div>
 </template>
 

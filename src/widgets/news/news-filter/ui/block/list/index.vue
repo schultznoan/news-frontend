@@ -1,5 +1,8 @@
 <template>
-  <div v-if="filtersList?.length" class="filters-block__list">
+  <div
+    v-if="filtersList?.length"
+    class="filters-block__list"
+  >
     <!-- <div v-for="filter in filtersList" :key="filter.id">
       {{ filter.title }}
     </div> -->
