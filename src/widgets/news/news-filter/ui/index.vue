@@ -1,11 +1,11 @@
 <template>
   <div v-if="filtersList.length" class="filters-list">
-    <news-filter-block-widget v-for="filter in filtersList" :key="filter.id" :filter="filter" />
+    <news-filter-block v-for="filter in filtersList" :key="filter.id" :filter="filter" />
   </div>
 </template>
 
 <script setup>
-import NewsFilterBlockWidget from './ui-filters-block.vue'
+import NewsFilterBlock from './block/index.vue'
 import { filtersList } from '../mocks'
 </script>
 

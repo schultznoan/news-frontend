@@ -11,12 +11,12 @@
         </div>
       </div>
     </div>
-    <ui-filters-block-list v-if="isFilterOpen" :filters-list="filter.list" />
+    <news-filter-block-list v-if="isFilterOpen" :filters-list="filter.list" />
   </div>
 </template>
 
 <script setup>
-import UiFiltersBlockList from './ui-filters-block-list.vue'
+import NewsFilterBlockList from './list/index.vue'
 import { ref } from 'vue'
 
 defineProps({

@@ -1,7 +1,7 @@
-import { NewsSearchWidget } from './news-search'
-import { NewsFilterWidget } from './news-filter'
+import { NewsSearch } from './news-search'
+import { NewsFilter } from './news-filter'
 
 export {
-  NewsSearchWidget,
-  NewsFilterWidget
+  NewsSearch,
+  NewsFilter
 }

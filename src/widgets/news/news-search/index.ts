@@ -1,5 +1,5 @@
-import NewsSearchWidget from './ui/ui-news-search.vue'
+import NewsSearch from './ui/index.vue'
 
 export {
-  NewsSearchWidget
+  NewsSearch
 }
